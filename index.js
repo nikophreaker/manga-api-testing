@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const PORT = process.env.PORT || 4444;
+const PORT = process.env.PORT || 4040;
 const manga = require("./routers/manga");
 const chapter = require("./routers/chapter");
 // const cors = require("cors");

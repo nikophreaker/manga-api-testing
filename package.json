@@ -13,12 +13,12 @@
     "helmet": "^4.2.0",
     "phantomjs-prebuilt": "^2.1.16",
     "tough-cookie": "^4.0.0",
-    "tunnel": "^0.0.6"
+    "tunnel": "0.0.6"
   },
   "devDependencies": {},
   "scripts": {
     "test": "start index.js",
-    "start" : "node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
