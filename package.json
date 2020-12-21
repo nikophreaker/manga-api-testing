@@ -1,0 +1,33 @@
+{
+  "name": "manga-api-testing",
+  "version": "1.0.0",
+  "description": "Manga Api indonesia",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "axios-cookiejar-support": "^1.0.1",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "got": "^11.8.1",
+    "helmet": "^4.2.0",
+    "phantomjs-prebuilt": "^2.1.16",
+    "tough-cookie": "^4.0.0",
+    "tunnel": "^0.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "start index.js",
+    "start" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikophreaker/manga-api-testing.git"
+  },
+  "author": "niko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikophreaker/manga-api-testing/issues"
+  },
+  "homepage": "https://github.com/nikophreaker/manga-api-testing#readme"
+}
